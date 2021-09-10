@@ -1,0 +1,5 @@
+
+<mat-radio-group [(ngModel)]="units">
+  <mat-radio-button value="imperial" (change)="unitChange($event.value)" >Farenheit</mat-radio-button>
+  <mat-radio-button value="metric" (change)="unitChange($event.value)">Celcius</mat-radio-button>
+</mat-radio-group>
